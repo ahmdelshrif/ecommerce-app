@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+
+# تجاهل ملفات
+.env
+npm-debug.log
+
+# تجاهل ملفات النظام
+.DS_Store
+Thumbs.db
+Config.env/
