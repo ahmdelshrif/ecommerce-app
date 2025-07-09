@@ -7,7 +7,6 @@ Backend API for an e-commerce system using Node.js, Express, and MongoDB.
 - User authentication & authorization
 - Product management
 - Orders & cart handling
-- Admin dashboard support
 - MongoDB with Mongoose
 
 # How to Run
