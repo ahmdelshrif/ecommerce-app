@@ -1,0 +1,47 @@
+{
+  "name": "nodejs-ecommerce-api-v1",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": " nodemon server.js",
+    "start:prod": "set NODE_ENV=production && node server.js",
+    "start:seder": "node seder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "color": "^5.0.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "mongoose-query-parser": "^1.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.4",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "qs": "^6.14.0",
+    "sharp": "^0.34.2",
+    "slugify": "^1.6.6",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "nodemon": "^2.0.15",
+    "prettier": "^3.5.3"
+  }
+}
