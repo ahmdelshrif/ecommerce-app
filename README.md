@@ -27,7 +27,7 @@ Search, Filter, Pagination, Sorting
 Shopping Cart (Add, Update, Delete Items)
 Orders Management
 
-##Tech Stack
+## Tech Stack
 Node.js + Express.js
 MongoDB + Mongoose
 JWT for Authentication
